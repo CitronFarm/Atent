@@ -76,33 +76,222 @@
     -ms-grid-columns: 300px 700px 500px 1fr;
     grid-template-columns: 300px 700px 500px 1fr;
   }
-  #RoasterGrid
+ #RoasterGrid
   {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 400px 200px 300px 400px 1fr;
     grid-template-columns: 400px 200px 300px 400px 1fr;
+    -ms-grid-rows: 150px auto auto auto auto auto auto auto auto;
     grid-template-rows: 150px auto auto auto auto auto auto auto auto;
+  }  #RoasterGrid > *:nth-child(1)
+  {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+  }  #RoasterGrid > *:nth-child(2)
+  {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+  }  #RoasterGrid > *:nth-child(3)
+  {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+  }  #RoasterGrid > *:nth-child(4)
+  {
+    -ms-grid-row: 1;
+    -ms-grid-column: 4;
+  }  #RoasterGrid > *:nth-child(5)
+  {
+    -ms-grid-row: 1;
+    -ms-grid-column: 5;
+  }  #RoasterGrid > *:nth-child(6)
+  {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+  }  #RoasterGrid > *:nth-child(7)
+  {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+  }  #RoasterGrid > *:nth-child(8)
+  {
+    -ms-grid-row: 2;
+    -ms-grid-column: 3;
+  }  #RoasterGrid > *:nth-child(9)
+  {
+    -ms-grid-row: 2;
+    -ms-grid-column: 4;
+  }  #RoasterGrid > *:nth-child(10)
+  {
+    -ms-grid-row: 2;
+    -ms-grid-column: 5;
+  }  #RoasterGrid > *:nth-child(11)
+  {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+  }  #RoasterGrid > *:nth-child(12)
+  {
+    -ms-grid-row: 3;
+    -ms-grid-column: 2;
+  }  #RoasterGrid > *:nth-child(13)
+  {
+    -ms-grid-row: 3;
+    -ms-grid-column: 3;
+  }  #RoasterGrid > *:nth-child(14)
+  {
+    -ms-grid-row: 3;
+    -ms-grid-column: 4;
+  }  #RoasterGrid > *:nth-child(15)
+  {
+    -ms-grid-row: 3;
+    -ms-grid-column: 5;
+  }  #RoasterGrid > *:nth-child(16)
+  {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+  }  #RoasterGrid > *:nth-child(17)
+  {
+    -ms-grid-row: 4;
+    -ms-grid-column: 2;
+  }  #RoasterGrid > *:nth-child(18)
+  {
+    -ms-grid-row: 4;
+    -ms-grid-column: 3;
+  }  #RoasterGrid > *:nth-child(19)
+  {
+    -ms-grid-row: 4;
+    -ms-grid-column: 4;
+  }  #RoasterGrid > *:nth-child(20)
+  {
+    -ms-grid-row: 4;
+    -ms-grid-column: 5;
+  }  #RoasterGrid > *:nth-child(21)
+  {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+  }  #RoasterGrid > *:nth-child(22)
+  {
+    -ms-grid-row: 5;
+    -ms-grid-column: 2;
+  }  #RoasterGrid > *:nth-child(23)
+  {
+    -ms-grid-row: 5;
+    -ms-grid-column: 3;
+  }  #RoasterGrid > *:nth-child(24)
+  {
+    -ms-grid-row: 5;
+    -ms-grid-column: 4;
+  }  #RoasterGrid > *:nth-child(25)
+  {
+    -ms-grid-row: 5;
+    -ms-grid-column: 5;
+  }  #RoasterGrid > *:nth-child(26)
+  {
+    -ms-grid-row: 6;
+    -ms-grid-column: 1;
+  }  #RoasterGrid > *:nth-child(27)
+  {
+    -ms-grid-row: 6;
+    -ms-grid-column: 2;
+  }  #RoasterGrid > *:nth-child(28)
+  {
+    -ms-grid-row: 6;
+    -ms-grid-column: 3;
+  }  #RoasterGrid > *:nth-child(29)
+  {
+    -ms-grid-row: 6;
+    -ms-grid-column: 4;
+  }  #RoasterGrid > *:nth-child(30)
+  {
+    -ms-grid-row: 6;
+    -ms-grid-column: 5;
+  }  #RoasterGrid > *:nth-child(31)
+  {
+    -ms-grid-row: 7;
+    -ms-grid-column: 1;
+  }  #RoasterGrid > *:nth-child(32)
+  {
+    -ms-grid-row: 7;
+    -ms-grid-column: 2;
+  }  #RoasterGrid > *:nth-child(33)
+  {
+    -ms-grid-row: 7;
+    -ms-grid-column: 3;
+  }  #RoasterGrid > *:nth-child(34)
+  {
+    -ms-grid-row: 7;
+    -ms-grid-column: 4;
+  }  #RoasterGrid > *:nth-child(35)
+  {
+    -ms-grid-row: 7;
+    -ms-grid-column: 5;
+  }  #RoasterGrid > *:nth-child(36)
+  {
+    -ms-grid-row: 8;
+    -ms-grid-column: 1;
+  }  #RoasterGrid > *:nth-child(37)
+  {
+    -ms-grid-row: 8;
+    -ms-grid-column: 2;
+  }  #RoasterGrid > *:nth-child(38)
+  {
+    -ms-grid-row: 8;
+    -ms-grid-column: 3;
+  }  #RoasterGrid > *:nth-child(39)
+  {
+    -ms-grid-row: 8;
+    -ms-grid-column: 4;
+  }  #RoasterGrid > *:nth-child(40)
+  {
+    -ms-grid-row: 8;
+    -ms-grid-column: 5;
+  }  #RoasterGrid > *:nth-child(41)
+  {
+    -ms-grid-row: 9;
+    -ms-grid-column: 1;
+  }  #RoasterGrid > *:nth-child(42)
+  {
+    -ms-grid-row: 9;
+    -ms-grid-column: 2;
+  }  #RoasterGrid > *:nth-child(43)
+  {
+    -ms-grid-row: 9;
+    -ms-grid-column: 3;
+  }  #RoasterGrid > *:nth-child(44)
+  {
+    -ms-grid-row: 9;
+    -ms-grid-column: 4;
+  }  #RoasterGrid > *:nth-child(45)
+  {
+    -ms-grid-row: 9;
+    -ms-grid-column: 5;
   }
   .TeamLogo{
     text-align: right;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
     grid-area: 1/2/2/3
   }
   .TeamName{
     font-family: 'Nanum Pen Script', cursive;
     font-size: 60px;
     text-align: left;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
     grid-area: 1/3/2/4
-  }
-  .TeamComment{
-    grid-area: 7/3/8/4
-    font-family: 'Nanum Pen Script', cursive;
-    font-size: 20px;
-    text-align: left;
   }
   .HEL{
     margin: 10px 0 10px 0;
     font-family: 'Nanum Pen Script', cursive;
     font-size: 40px;
     text-align: left;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
     grid-area: 2/2/3/3
   }
   .HEL_ID
@@ -111,6 +300,10 @@
     font-family: 'Rajdhani', sans-serif;
     font-size: 20px;
     text-align: left;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
     grid-area: 2/3/3/4
   }
   .HEL_Comment
@@ -118,6 +311,10 @@
     font-family: 'Nanum Pen Script', cursive;
     font-size: 20px;
     text-align: left;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 1;
     grid-area: 2/4/3/5
   }
   .AEL{
@@ -125,6 +322,10 @@
     font-family: 'Nanum Pen Script', cursive;
     font-size: 40px;
     vertical-align: middle;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
     grid-area: 3/2/4/3
   }
   .AEL_ID{
@@ -132,6 +333,10 @@
     font-family: 'Rajdhani', sans-serif;
     font-size: 20px;
     text-align: left;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
     grid-area: 3/3/4/4
   }
   .AEL_Comment
@@ -139,6 +344,10 @@
     font-family: 'Nanum Pen Script', cursive;
     font-size: 20px;
     text-align: left;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 1;
     grid-area: 3/4/4/5
   }
   .MEL{
@@ -146,6 +355,10 @@
     font-family: 'Nanum Pen Script', cursive;
     font-size: 40px;
     text-align: left;
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
     grid-area: 4/2/5/3
   }
   .MEL_ID{
@@ -153,6 +366,10 @@
     font-family: 'Rajdhani', sans-serif;
     font-size: 20px;
     text-align: left;
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
     grid-area: 4/3/5/4
   }
   .MEL_Comment
@@ -160,6 +377,10 @@
     font-family: 'Nanum Pen Script', cursive;
     font-size: 20px;
     text-align: left;
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 1;
     grid-area: 4/4/5/5
   }
   .IEL{
@@ -167,6 +388,10 @@
     font-family: 'Nanum Pen Script', cursive;
     font-size: 40px;
     text-align: left;
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
     grid-area: 5/2/6/3
   }
   .IEL_ID{
@@ -174,6 +399,10 @@
     font-family: 'Rajdhani', sans-serif;
     font-size: 20px;
     text-align: left;
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
     grid-area: 5/3/6/4
   }
   .IEL_Comment
@@ -181,6 +410,10 @@
     font-family: 'Nanum Pen Script', cursive;
     font-size: 20px;
     text-align: left;
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 1;
     grid-area: 5/4/6/5
   }
   .CEL{
@@ -188,6 +421,10 @@
     font-family: 'Nanum Pen Script', cursive;
     font-size: 40px;
     text-align: left;
+    -ms-grid-row: 6;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
     grid-area: 6/2/7/3
   }
   .CEL_ID{
@@ -195,6 +432,10 @@
     font-family: 'Rajdhani', sans-serif;
     font-size: 20px;
     text-align: left;
+    -ms-grid-row: 6;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
     grid-area: 6/3/7/4
   }
   .CEL_Comment
@@ -202,5 +443,9 @@
     font-family: 'Nanum Pen Script', cursive;
     font-size: 20px;
     text-align: left;
+    -ms-grid-row: 6;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 1;
     grid-area: 6/4/7/5
   }
