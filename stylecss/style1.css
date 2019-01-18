@@ -1,0 +1,206 @@
+  body{
+    background-color: black;
+    color: #D8D8D8;
+    margin: 0 0 0 0;
+  }
+  a:link{
+    display: block;
+    color: white;
+    text-decoration: none;
+  }
+  a:visited{
+    display: block;
+    color: white;
+    text-decoration: none;
+  }
+  a:hover{
+    display: block;
+    /*text-align: center;*/
+    color: white;
+    text-decoration: none;
+    background-color: #585858;
+  }
+  a:active{
+    display: block;
+    color: white;
+    text-decoration: none;
+    background-color: #424242;
+  }
+  .fonteng{
+    font-family: 'Rajdhani', sans-serif;
+  }
+  .fontkor{
+    font-family: 'Nanum Pen Script', cursive;
+  }
+  .p1-1{
+    text-align: left;
+    margin: 70px auto auto 150px;
+    font-size: 20px;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+  }
+  .p1-2{
+    text-align: left;
+    margin: 70px auto auto 150px;
+    font-size: 20px;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+  }
+  #Door{
+    height: 000px;
+  }
+  #Lmenu{
+    /*display: inline-block;*/
+    /*display: block;*/
+    border: 0px solid transparent;
+    padding: 0px;
+    margin: 200px 0 0 50px;
+    width: 250px;
+    background-color: black;
+    text-align: center;
+    text-decoration-color: white;
+    font-size: 30px;
+  }
+  #L-Mgrid
+  {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 300px 700px 500px 1fr;
+    grid-template-columns: 300px 700px 500px 1fr;
+  }
+  #RoasterGrid
+  {
+    display: grid;
+    grid-template-columns: 400px 200px 300px 400px 1fr;
+    grid-template-rows: 150px auto auto auto auto auto auto auto auto;
+  }
+  .TeamLogo{
+    text-align: right;
+    grid-area: 1/2/2/3
+  }
+  .TeamName{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 60px;
+    text-align: left;
+    grid-area: 1/3/2/4
+  }
+  .TeamComment{
+    grid-area: 7/3/8/4
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 20px;
+    text-align: left;
+  }
+  .HEL{
+    margin: 10px 0 10px 0;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 40px;
+    text-align: left;
+    grid-area: 2/2/3/3
+  }
+  .HEL_ID
+  {
+    margin: 10px 0 10px 0;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    grid-area: 2/3/3/4
+  }
+  .HEL_Comment
+  {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 20px;
+    text-align: left;
+    grid-area: 2/4/3/5
+  }
+  .AEL{
+    margin: 10px 0 10px 0;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 40px;
+    vertical-align: middle;
+    grid-area: 3/2/4/3
+  }
+  .AEL_ID{
+    margin: 10px 0 10px 0;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    grid-area: 3/3/4/4
+  }
+  .AEL_Comment
+  {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 20px;
+    text-align: left;
+    grid-area: 3/4/4/5
+  }
+  .MEL{
+    margin: 10px 0 10px 0;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 40px;
+    text-align: left;
+    grid-area: 4/2/5/3
+  }
+  .MEL_ID{
+    margin: 10px 0 10px 0;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    grid-area: 4/3/5/4
+  }
+  .MEL_Comment
+  {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 20px;
+    text-align: left;
+    grid-area: 4/4/5/5
+  }
+  .IEL{
+    margin: 10px 0 10px 0;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 40px;
+    text-align: left;
+    grid-area: 5/2/6/3
+  }
+  .IEL_ID{
+    margin: 10px 0 10px 0;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    grid-area: 5/3/6/4
+  }
+  .IEL_Comment
+  {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 20px;
+    text-align: left;
+    grid-area: 5/4/6/5
+  }
+  .CEL{
+    margin: 10px 0 10px 0;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 40px;
+    text-align: left;
+    grid-area: 6/2/7/3
+  }
+  .CEL_ID{
+    margin: 10px 0 10px 0;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    grid-area: 6/3/7/4
+  }
+  .CEL_Comment
+  {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 20px;
+    text-align: left;
+    grid-area: 6/4/7/5
+  }
