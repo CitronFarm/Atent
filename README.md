@@ -1,2 +1,2 @@
 # Atent
-team stratge
+아침에텐트 팀전력분석의 테스트페이지입니다.
